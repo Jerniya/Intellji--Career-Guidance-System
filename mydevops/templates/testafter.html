@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<head>
+
+
+		<?php include 'main.php' ?>	
+</head>
+<body>
+
+
+	
+   <br><br><br><br><br><br><br>
+ <center>  <b><h1>Hey! The top job roles that matched your skills.....</h1><br><br></b>
+   <div class="graph-cont">
+   <h1>You can be a great:</h1>
+  <a href="http://localhost/mydevops/blog.php" style="text-decoration: none;color: olive;font-size: 0.5cm;">{{ job0 }}</a><br>
+</center>
+		
+		
+
+	 
+	 {%for key, value in final_res.items(): %}
+		{%if job0!=job_dict[value]%}
+		<center> <a href="http://localhost/mydevops/blog.php" style="text-decoration: none;color: olive;font-size: 0.5cm;">{{job_dict[value]}}</a></center>
+
+	 
+	 
+	 
+		
+		
+					<!--<div class="bar bar2"><a href="#" style="text-decoration: none;"><font color="white">{{job_dict[value]|e}}</a></font></div><br> --> 
+		              
+
+		<!--	<div class="bar bar2"><a href="#" style="text-decoration: none;"><font color="white">{{job_dict[value]}}</a></font></div><br>  
+		
+		-->
+		{%endif%}
+	 {%endfor%}
+	 
+	
+	 <center><i><h2><p><a href="http://localhost/mydevops/blog.php">To know more about these job roles click here!</a></p></h2></i></center>
+	 
+	 
+	 
+	 
+	 <center>	<div >
+		<a href="http://localhost/mydevops/aboutus.html" style="font-size: 30px; color:plum">IntelJi</a>
+	</div>
+
+
+
+
+
+	<div>
+		<span>&copy; Copyright 2021. All Rights Reserved. </span>
+	</div>
+
+</center>		
+
+</body>
+</html>
+
+
+
+
+

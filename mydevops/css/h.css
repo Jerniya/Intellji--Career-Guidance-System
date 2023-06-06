@@ -1,0 +1,89 @@
+#indexpage{
+  background-image:url("../images/index1.jpg");
+  
+}
+#indexclass{ 
+   color:white;
+   display:flex;
+ 
+   font-size: 15px;
+  
+ 
+}
+#home,#services,#contact,#register,#about,#login
+{  background-color: rgb(65, 7, 65);
+   border-spacing: 30px;
+   color: white;
+   border-style:groove;
+   border-radius:2cm; 
+   border-color: purple;
+   text-decoration: none;
+   text-align-last:center;
+   margin: 10px;
+   padding: 10px;
+   
+}
+#login:hover,#home:hover,#services:hover,#contact:hover,#register:hover,#about:hover{
+background-color: plum;
+color:black;
+}
+
+#btnstart{
+  height:2cm;
+  width:8cm;
+  margin:2cm 20cm 1cm 16cm;
+  border-radius: 1cm;
+  
+  font-size:1cm;
+  box-shadow: 0 0 30px #c5cbc4;
+  background-color: rgb(241, 237, 246);
+ 
+  
+}
+#btnstart:hover{
+  
+   color:black;
+   background-color:rgb(132, 107, 145);
+ 
+
+}
+
+#indexpara{
+   color:white;
+   margin:0cm 0cm 3cm 8cm;
+   font-family: Arial, Helvetica, sans-serif;
+   font-style: oblique;
+   font-size: medium;
+}
+
+.container{
+   position:relative;
+}
+.container .btncont{
+   position:absolute;
+   top: 50%;
+   left:1%;
+  
+
+  height:2cm;
+  width:8cm;
+  margin:2cm 20cm 1cm 16cm;
+  border-radius: 1cm;
+  
+  font-size:1cm;
+  box-shadow: 0 0 30px #c5cbc4;
+  color:white;
+  background-color:rgba(70, 41, 5, 0.964);
+ 
+ 
+}
+
+
+
+.btncont:hover{
+  
+   color:black;
+   background-color:rgba(187, 139, 75, 0.964);
+ 
+
+}
